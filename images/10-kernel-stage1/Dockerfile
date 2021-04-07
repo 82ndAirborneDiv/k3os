@@ -1,6 +1,6 @@
 ARG REPO
 ARG TAG
-FROM ubuntu:focal
+FROM ubuntu:rolling
 
 RUN apt-get --assume-yes update \
  && apt-get --assume-yes install \
