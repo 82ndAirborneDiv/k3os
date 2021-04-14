@@ -1,6 +1,6 @@
 ARG REPO
 ARG TAG
-FROM ubuntu:focal
+FROM ubuntu:groovy-20210325
 
 RUN apt-get --assume-yes update \
  && apt-get --assume-yes install \
